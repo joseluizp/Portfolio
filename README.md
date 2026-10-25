@@ -1,9 +1,10 @@
 # José Luiz Júnior · Portfólio
 
-Este é o código do meu portfólio: uma página única em HTML, CSS e JavaScript puros, sem framework e sem etapa de build. Ele reúne seis projetos que fiz enquanto estudo front-end (React e GSAP) e lógica de programação (Java), e também serve de vitrine do que consigo construir sem biblioteca: a animação da primeira tela, por exemplo, é um canvas 2D escrito à mão.
+Este é o código do meu portfólio: uma página única em HTML, CSS e JavaScript puros, sem framework e sem etapa de build. Ele reúne seis projetos que fiz enquanto estudo Full-Stack (React e GSAP) e lógica de programação (Java), e também serve de vitrine do que consigo construir sem biblioteca: a animação da primeira tela, por exemplo, é um canvas 2D escrito à mão.
 
 Sou estudante de Análise e Desenvolvimento de Sistemas na Universidade Cruzeiro do Sul (conclusão prevista para junho de 2027) e procuro estágio ou vaga júnior em desenvolvimento Front-End, Back-End ou Full Stack.
 
+**Portfólio online:** [joseluizdev.netlify.app](https://joseluizdev.netlify.app/)
 ## Preview Tela Inicial do PórtFólio
 
 ![Preview 01](./assets/preview-projeto.png)
