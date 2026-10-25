@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <title>José Luiz Júnior · Desenvolvedor</title>
+    <meta
+      name="description"
+      content="Portfólio de José Luiz Júnior, desenvolvedor em formação em busca de estágio ou vaga júnior. Disponível para início imediato."
+    />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="w bar">
+        <a class="mono" href="#topo" aria-label="Início"
+          ><b>JL</b><span>José Luiz Júnior</span></a
+        >
+        <nav id="nav" aria-label="Principal">
+          <a href="#sobre">Sobre</a><a href="#projetos">Projetos</a
+          ><a href="#competencias">Competências</a
+          ><a href="#trajetoria">Trajetória</a><a href="#contato">Contato</a>
+        </nav>
+        <a class="btn" href="#contato">Contato</a
+        ><button
+          class="menu"
+          id="menu"
+          aria-expanded="false"
+          aria-controls="nav"
+        >
+          Menu
+        </button>
+      </div>
+    </header>
+    <main id="topo">
+      <div class="hero">
+        <div class="w">
+          <div>
+            <p class="avail"><i></i>Disponível para início imediato</p>
+            <h1>José Luiz Júnior</h1>
+            <p class="lead">
+              Desenvolvedor Full-Stack em formação,com projetos em
+              React,Javascript e Java. Busco
+              <span class="hl">estágio ou vaga júnior</span> para contribuir com
+              um time de teconologia e seguir evoluindo no Front-end e no
+              Back-end.
+            </p>
+
+            <div class="acts">
+              <a class="btn" href="#projetos">Ver projetos</a
+              ><a class="lnk" href="#contato">Falar comigo</a
+              ><button class="lnk" data-cv hidden>
+                Baixar currículo (PDF)
+              </button>
+            </div>
+          </div>
+          <div class="stage">
+            <canvas id="cv" role="presentation" aria-hidden="true"></canvas>
+          </div>
+        </div>
+      </div>
+
+      <section id="sobre">
+        <div class="w two">
+          <div class="rv">
+            <p class="cap">Sobre</p>
+            <h2>Interface, lógica e dados.</h2>
+          </div>
+          <div class="rv">
+            <p>
+              <strong>José Luiz Pereira dos Santos Júnior</strong>, estudante de
+              Análise e Desenvolvimento de Sistemas na Universidade Cruzeiro do
+              Sul, com conclusão prevista em junho de 2027. Estou me formando
+              como desenvolvedor Full-Stack.
+            </p>
+            <p>
+              No front-end, construo interfaces com HTML, CSS, JavaScript e
+              React, de landing pages animadas com GSAP a um CRUD que consome
+              API. Na lógica, uso Java e programação orientada a objetos, como
+              no jogo 2D que desenvolvi. Agora aprofundo o back-end com Node.js,
+              APIs REST, SQL e NoSQL.
+            </p>
+            <p>
+              Antes disso, trabalhei com recuperação de crédito em duas
+              empresas, o que me deu prática em negociação, comunicação e
+              cumprimento de metas.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="projetos">
+        <div class="w">
+          <div class="rv">
+            <p class="cap">Projetos</p>
+            <h2>Trabalhos que desenvolvi.</h2>
+          </div>
+          <div id="lista"></div>
+        </div>
+      </section>
+
+      <section id="competencias">
+        <div class="w">
+          <div class="rv">
+            <p class="cap">Competências</p>
+            <h2>O que usei, e o que estou aprendendo.</h2>
+          </div>
+          <div class="cols rv">
+            <div>
+              <h3>Usadas nos projetos</h3>
+              <p>Tecnologias presentes no código dos projetos acima.</p>
+              <ul class="chips">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>GSAP</li>
+                <li>ScrollTrigger</li>
+                <li>React</li>
+                <li>React Hooks</li>
+                <li>Axios</li>
+                <li>Bootstrap</li>
+                <li>Java</li>
+                <li>Swing</li>
+                <li>POO</li>
+                <li>Git e GitHub</li>
+                <li>Figma</li>
+              </ul>
+            </div>
+            <div>
+              <h3>Em aprendizado</h3>
+              <p>
+                Constam no currículo a partir de cursos e certificações, ainda
+                sem projeto no portfólio.
+              </p>
+              <ul class="chips">
+                <li>Node.js</li>
+                <li>APIs REST</li>
+                <li>Next.js</li>
+                <li>Angular</li>
+                <li>C#</li>
+                <li>SQL</li>
+                <li>NoSQL</li>
+                <li>Scrum</li>
+                <li>Kanban</li>
+                <li>IA aplicada a web</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="trajetoria">
+        <div class="w">
+          <div class="rv">
+            <p class="cap">Trajetória</p>
+            <h2>Formação e experiência.</h2>
+          </div>
+          <div class="cols rv">
+            <div>
+              <h3>Formação</h3>
+              <p>&nbsp;</p>
+              <ul class="rows">
+                <li>
+                  <div>
+                    Tecnólogo em Análise e Desenvolvimento de Sistemas<em
+                      >Universidade Cruzeiro do Sul · em andamento</em
+                    >
+                  </div>
+                  <span>Mar/2025 – Jun/2027 (previsto)</span>
+                </li>
+              </ul>
+              <h3 style="margin-top: 42px">Cursos e certificações</h3>
+              <p>&nbsp;</p>
+              <ul class="rows">
+                <li>
+                  <div>Desenvolvimento de Software<em>Solid Tech</em></div>
+                  <span>Mai/2026</span>
+                </li>
+                <li>
+                  <div>
+                    Next.js, React.js, Node.js, JavaScript e Java<em>Udemy</em>
+                  </div>
+                  <span>Jun/2026</span>
+                </li>
+                <li>
+                  <div>
+                    Missão Programação com IA do Zero (nota 10)<em>DevClub</em>
+                  </div>
+                  <span>Jul/2026</span>
+                </li>
+                <li>
+                  <div>
+                    Inteligência Artificial<em>Claude Academy | ApplyFy</em>
+                  </div>
+                  <span>Mai/2026</span>
+                </li>
+                <li>
+                  <div>
+                    Inteligência Artificial · Universo Hacker e Arquitetura em
+                    Nuvem · Universo Engenharia, Sistemas e Computação · O
+                    Futuro Tech · Universo dos Negócios, Criatividade e Tech<em
+                      >FIAP + Alura</em
+                    >
+                  </div>
+                  <span>2026</span>
+                </li>
+                <li>
+                  <div>
+                    Spider-Man · Um Novo Dia (projeto web)<em>DevArt</em>
+                  </div>
+                  <span>2026</span>
+                </li>
+                <li>
+                  <div>Curso de Inglês<em>Accent</em></div>
+                  <span>Cursando</span>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h3>Experiência</h3>
+              <p>&nbsp;</p>
+              <ul class="rows">
+                <li>
+                  <div>
+                    Desenvolvedor Freelancer<em
+                      >Autônomo · Remoto. Aplicações web e projetos
+                      independentes com HTML, CSS, JavaScript, React e Java.</em
+                    >
+                  </div>
+                  <span>Jul/2026 – atual</span>
+                </li>
+                <li>
+                  <div>
+                    Especialista em Recuperação de Crédito<em
+                      >Atento Brasil S/A. Negociação com clientes, análise de
+                      informações financeiras e cumprimento de 100% das
+                      metas.</em
+                    >
+                  </div>
+                  <span>Jun/2025 – Fev/2026</span>
+                </li>
+                <li>
+                  <div>
+                    Recuperador de Crédito<em
+                      >Flex Gestão de Relacionamento S.A. Contato ativo,
+                      negociação financeira e atualização de registros.</em
+                    >
+                  </div>
+                  <span>Mar/2024 – Fev/2025</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contato">
+        <div class="w">
+          <div class="rv">
+            <p class="cap">Contato</p>
+            <p class="big">
+              Disponível para início imediato.<br />Vamos conversar sobre
+              <span class="hl">estágio ou vaga júnior</span>?
+            </p>
+            <p style="color: var(--mist); max-width: 520px; margin-top: 24px">
+              Fico à disposição para esclarecer qualquer dúvida sobre meu
+              perfil.
+            </p>
+          </div>
+          <div class="ct rv">
+            <a href="mailto:joseluizpereiradsantosjr@gmail.com"
+              >joseluizpereiradsantosjr@gmail.com<span>E-mail</span></a
+            >
+            <a
+              href="https://wa.me/5511959430078?text=Visualizei%20o%20seu%20portf%C3%B3lio%2C%20podemos%20conversar%3F"
+              target="_blank"
+              rel="noopener"
+              >(11) 95943-0078<span>Telefone</span></a
+            >
+            <a
+              href="https://linkedin.com/in/jose-luiz-jr03"
+              target="_blank"
+              rel="noopener"
+              >linkedin.com/in/jose-luiz-jr03<span>LinkedIn</span></a
+            >
+            <a
+              href="https://github.com/Joseluizp"
+              target="_blank"
+              rel="noopener"
+              >github.com/Joseluizp<span>GitHub</span></a
+            >
+          </div>
+          <div style="margin-top: 36px">
+            <button class="btn" data-cv hidden>Baixar currículo (PDF)</button>
+            <span id="cvmsg" class="note" role="status"></span>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="w">José Luiz Pereira dos Santos Júnior. 2026</div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
